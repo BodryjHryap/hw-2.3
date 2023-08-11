@@ -1,4 +1,4 @@
-public class Truck extends Interface{
+public class Truck extends ParameterService {
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }

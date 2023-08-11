@@ -1,8 +1,8 @@
-public class Interface {
+public class ParameterService {
     private String modelName;
     private int wheelsCount;
 
-    public Interface(String modelName, int wheelsCount) {
+    public ParameterService(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
