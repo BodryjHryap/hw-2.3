@@ -1,29 +1,17 @@
-public class ParameterService {
-    private String modelName;
-    private int wheelsCount;
-
-    public ParameterService(String modelName, int wheelsCount) {
-        this.modelName = modelName;
-        this.wheelsCount = wheelsCount;
-    }
-
+public abstract class ParameterService implements ServiceStation {
+    private final String modelName;
+    private final int wheelsCount;
 
     public String getModelName() {
         return modelName;
     }
 
-
     public int getWheelsCount() {
         return wheelsCount;
     }
 
-
-    public void setModelName(String modelName) {
+    public ParameterService(String modelName, int wheelsCount) {
         this.modelName = modelName;
-    }
-
-
-    public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
 }
