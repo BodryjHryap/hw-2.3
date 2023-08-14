@@ -1,4 +1,4 @@
-public class Main {
+public class Main{
     public static void main(String[] args) {
         Car car = new Car("Автомобиль 1", 4);
         Car car2 = new Car("Автомобиль 2", 4);
@@ -10,6 +10,7 @@ public class Main {
         Bicycle bicycle2 = new Bicycle("Велосипед 2", 2);
 
         ServiceStationForVehicle station = new ServiceStationForVehicle();
+
         station.check(car);
         station.check(car2);
         station.check(truck);

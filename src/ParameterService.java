@@ -1,4 +1,4 @@
-public abstract class ParameterService implements ServiceStation {
+public abstract class ParameterService implements ServiceStation{
     private final String modelName;
     private final int wheelsCount;
 

@@ -1,3 +1,3 @@
-public interface ServiceStation {
+public interface ServiceStation{
     void doService();
 }

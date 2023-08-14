@@ -1,4 +1,4 @@
-public class ServiceStationForVehicle {
+public class ServiceStationForVehicle{
     public void check(ServiceStation serviceStation) {
         serviceStation.doService();
     }
