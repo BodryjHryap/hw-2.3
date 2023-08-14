@@ -1,8 +1,15 @@
-public class Bicycle extends Interface{
+public class Bicycle extends ParameterService{
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
+
+    public void doService() {
+        System.out.println("Обслуживаем " + this.getModelName());
+        updateTyre();
+    }
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        for (int i = 0; i < this.getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
     }
 }
